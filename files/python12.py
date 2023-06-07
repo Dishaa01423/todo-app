@@ -7,7 +7,7 @@ def get_todos(filepath=FILEPATH):
     return todos_local
 
 def write_todos(todos_arg ,filepath = FILEPATH):
-    with open("todos.txt", "w") as file:
+    with open(filepath, "w") as file:
         file.writelines(todos_arg)
 
 if __name__ == '__main__':
