@@ -10,6 +10,3 @@ hello
 open
 add lastly
 keep going
-
-keep goin
-
